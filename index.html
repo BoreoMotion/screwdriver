@@ -12,7 +12,7 @@
             background-color: #f9f9fa;
             color: #000;
             font-family: "Inter Tight", sans-serif;
-            /* width: 670px; */
+/*             width: 670px; */
         }
 
         h1, h2 {
@@ -136,11 +136,12 @@
 
         .imgcontainer {
 			position: relative;
-			margin: 20px 20px;
+			margin: -5px 20px;
 			max-width: calc(100% - 40px);
             border-radius: 10px;
             overflow: hidden;
-            background-color: #ffffff
+            background-color: #ffffff;
+            z-index: 0;
 		}
 
 		.container {
@@ -217,15 +218,18 @@
 		<h1>User Interface</h1>
 		<p style="margin: 16px 0 8px; text-align: center; font-size: 18px; line-height: 125%;">
         <b>Here's a quick overview on Screwdriver's UI</b><br></p>
-        <div class="imgcontainer"><img src = "https://i.postimg.cc/hG55Qdw8/Driver-List.jpg" , width=100%></div>
-        <p>Here is a list of all the drivers you made using Screwdriver in this blender file. you can click on one of them to edit it or simply remove it by clicking on the <b>X</b> button.</p>
-        <div class="imgcontainer"><img src = "https://i.postimg.cc/VvYLSp2b/Source-Target.jpg" , width=100%></div>
+        <div class="imgcontainer"  style="margin-top: 10px;"><img src = "https://i.postimg.cc/T27Jd6zm/Driver-List.jpg" , width=100%></div>
+        <p>This is a list of all the drivers you made using Screwdriver in this blender file. you can click on one of them to edit it or remove it by clicking on the <b>X</b> button.</p>
+        <br>
+        <div class="imgcontainer"><img src = "https://i.postimg.cc/Twyn7k9S/Source-Target.jpg" , width=100%></div>
 		<p>Once you’ve defined the <b>source</b> and <b>target</b> properties, this a UI will appear, clearly displaying their names and indicating their data types through color-coded icons. For both the source and target, you can define <b>initial</b> and <b>final</b> values. This means that as the source transitions from its initial to final value, the target will transition accordingly between its own defined initial and final values.</p>
-        <div class="imgcontainer"><img src = "https://i.postimg.cc/xjRdrjbG/Mark.jpg" , width=100%></div>
+        <br>
+        <div class="imgcontainer"><img src = "https://i.postimg.cc/Gm7BWFH1/Mark.jpg" , width=100%></div>
         <p>Instead of manually setting the initial and final values yourself, these two buttons make it a lot easier. To use them, adjust the source and target properties to their desired initial values and click <b>Mark as Initial</b>. Then, adjust the source and target properties to their desired final values and click <b>Mark as Final</b>. This streamlined process saves time and ensures accurate value transitions.</p>
-        <div class="imgcontainer"><img src = "https://i.postimg.cc/90JXy1jg/Extrapolation.jpg" , width=100%></div>
+        <br>
+        <div class="imgcontainer"><img src = "https://i.postimg.cc/CxLBrPMN/Extrapolation.jpg" , width=100%></div>
         <p>Extrapolation lets you define how the target property behaves <b>before the source reaches its initial value</b> or <b>after it exceeds its final value</b>. Here are the available options:</p>
-
+            
     </div>
 
 
