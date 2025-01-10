@@ -229,7 +229,13 @@
         <br>
         <div class="imgcontainer"><img src = "https://i.postimg.cc/RhfNky23/Extrapolation.jpg" , width=100%></div>
         <p>Extrapolation lets you define how the target property behaves <b>before the source reaches its initial value</b> or <b>after it exceeds its final value</b>. Here are the available options:</p>
-            
+        <ul>
+	  <li><strong>Extrapolate:</strong> Extends the source-target relationship linearly beyond the source's minimum and maximum values.</li>
+	  <li><strong>Repeat:</strong> Repeats the source range pattern beyond the source's minimum and maximum values, cycling through values.</li>
+	  <li><strong>Ping-Pong:</strong> Bounces back and forth between the min and max values beyond the source's minimum and maximum.</li>
+	  <li><strong>Sin Wave:</strong> Creates a smooth oscillation between the min and max values beyond the source's minimum and maximum.</li>
+	  <li><strong>Extend:</strong> Holds the value at the min or max, extending the value beyond the range limits before the minimum or after the maximum.</li>
+	</ul>
     </div>
 
 
